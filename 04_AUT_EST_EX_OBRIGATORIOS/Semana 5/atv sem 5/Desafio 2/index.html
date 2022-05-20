@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <div class="tittle"><h1>Desafio 2 - Notas de dinheiro</h1></div>
+    <div class="tittlePreco"><h3>Digite o preço do produto</h3></div>
+    <div class="inputNumber">
+        <input type="number" id="preco" name="preco" placeholder="Preço">
+    </div>
+    <div class="buttonOnClick">
+		<button onclick="CalAndShow()" id="buttoncalc" class="button">Calcular notas</button>
+	</div>
+    <div class="resposta" id="respo">
+        <h4 id="cem"></h4>
+        <h4 id="cinquenta"></h4>
+        <h4 id="vinte"></h4>
+        <h4 id="dez"></h4>
+        <h4 id="cinco"></h4>
+        <h4 id="dois"></h4>
+        <h4 id="um"></h4>
+    </div>
+    <div class="buttonOnClick">
+		<button onclick="ClearHtml()" id="buttonclear" class="button hide">Limpar</button>
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>

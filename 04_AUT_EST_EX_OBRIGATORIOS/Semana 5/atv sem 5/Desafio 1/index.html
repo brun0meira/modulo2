@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tittle"><h1>Desafio 1 - Calculadora</h1></div>
+    <div class="operacao">
+        <div class="inputNumber">
+            <input type="number" id="valor1" name="valor1" placeholder="1° Valor">
+        </div>
+        <div class="inputSinal">
+            <input type="text" id="sinal" name="valor1" placeholder="Sinal" class="camposinal">
+        </div>
+        <div class="inputNumberTwo">
+            <input type="number" id="valor2" name="valor2" placeholder="2° Valor">
+        </div>
+    </div>
+    <br>
+    <div class="buttonOnClick">
+		<button onclick="CalAndShow()" id="buttoncalc" class="button">Calcular valores</button>
+	</div>
+    <div class="resposta" id="respo">
+        <h2 id="h2resp"></h2>
+    </div>
+    <div class="intrucoes">
+        <h3>Intruções para operações</h3>
+        <h5>Digite + para Adição</h5>
+        <h5>Digite - para Subtração</h5>
+        <h5>Digite * para Multiplicação</h5>
+        <h5>Digite / para Divisão</h5>
+        <h5>Digite // para Divisão com números inteiros</h5>
+        <h5>Digite % para Resto da divisão</h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
