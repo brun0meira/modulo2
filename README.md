@@ -8,3 +8,4 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/brun0meira/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%204/Curr%C3%ADculo%20HTML%20and%20CSS"> 18/05/2022 - Entrega 3 - Curriculo HTML, CSS e Javascript </a>
 ## Obrigatórios
 <a href="https://github.com/brun0meira/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203/AtvSem3"> 10/05/2022 - Entrega Obrigatória 01 </a>
+<a href="https://github.com/brun0meira/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/atv%20sem%205"> 20/05/2022 - Entrega Obrigatória 02 - Desafio 1, 2 e 3 </a>
