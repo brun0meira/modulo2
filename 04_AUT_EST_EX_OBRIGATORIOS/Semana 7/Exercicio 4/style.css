@@ -1,0 +1,62 @@
+body {
+    background-color: #bae8e8;
+}
+
+input[type=number] {
+    padding: 12px 12px;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 12px 12px;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ffd803;
+    width: 11%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+.tittle {
+    text-align: center;
+    color: #272343;
+}
+
+.resposta{
+    text-align: center;
+    color: #272343;
+}
+
+.buttonOnClick {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#buttoncalc {
+    margin-right: 1vh;
+}
+
+#buttoncalc1 {
+    margin-left: 1vh;
+}
