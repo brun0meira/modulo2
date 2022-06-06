@@ -19,3 +19,10 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/brun0meira/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/atv%20sem%205"> 20/05/2022 - Entrega Obrigatória 02 - Desafio 1, 2 e 3 </a>
 <br>
 <a href="https://github.com/brun0meira/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 05/06/2022 - Entrega Obrigatória 03 - Desafio 1, 2, 3, 4 e 5 </a>
+
+## Exercicios opcionais - user beecrowd: Rbruno227
+<a href="https://www.beecrowd.com.br/judge/pt/homeworks/view/29684"> 06/06/2022 - Semana 3 </a>
+<br>
+<a href="https://www.beecrowd.com.br/judge/pt/homeworks/view/30000"> 06/06/2022 - Semana 5 </a>
+<br>
+<a href="https://www.beecrowd.com.br/judge/pt/homeworks/view/30289"> 06/06/2022 - Semana 7 </a>
