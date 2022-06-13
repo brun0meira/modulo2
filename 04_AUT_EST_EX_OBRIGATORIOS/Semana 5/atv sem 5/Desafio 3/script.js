@@ -1,6 +1,6 @@
 function CalAndShow() {
 var array = document.getElementById("nums").value;
-var foco = document.getElementById("foco").value;
+var foco = Number(document.getElementById("foco").value);
 array = array.split(',')
 
  for(let i = 0; i < array.length - 1; i++){

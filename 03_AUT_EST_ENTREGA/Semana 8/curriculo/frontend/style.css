@@ -1,0 +1,197 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkorchid;
+}
+
+.Principal h1{
+    color: black;
+}
+.Teste {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Teste2{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgb(0, 0, 0);
+    border: none;
+}
+
+.Teste3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 255, 247);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Teste3 img {
+    width: 20%;
+}
+
+.Teste4 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 150%;
+}
+
+.Email{
+    color: rgb(10, 255, 247);
+}
+
+.Email:hover{
+    color: black;
+}
+
+.Number{
+    color: rgb(10, 255, 247);
+}
+
+.Number:hover{
+    color: black;
+}
+.Prep{
+    text-align: center;
+    line-height: 0.005;
+    font-size: 27px;
+}
+
+.Prep{
+    text-align: center;
+}
+
+.Principal img{
+    width: 5%;
+}
+
+.Border{
+    margin: 0px 20px 0px 20px;
+}
+
+.Exp {
+    line-height: 0.5;
+}
+
+.Form {
+    line-height: 0.5;
+}
+
+.Ativ {
+    line-height: 0.005;
+}
+.Ativ p {
+    line-height: 1.5;
+}
+
+.Tittle_exp {
+    color: black;
+}
+
+.Tittle_form {
+    color: black;
+}
+
+.Tittle_atv {
+    color: black;
+}
+
+.Tittle_skills {
+    color: black;
+}
+.Exp h3{
+    color: blueviolet;
+}
+
+.Form h3{
+    color: blueviolet;
+}
+
+.Ativ h3{
+    color: blueviolet;
+}
+
+.img1{
+    width: 5%;
+}
+.img2{
+    width: 5%;
+}
+.img3{
+    width: 5%;
+}
+
+.buttonshow {
+    background-color: #ffd803;
+    width: 11%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+.buttonshow:hover {
+    transform: scale(1.04);
+    background-color: blueviolet;
+}
+
+.hide {
+    display: none;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttonView {
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    background-color: #FFC700;
+    border: 1px solid black;
+  }
+
+  .buttonAdd {
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: blueviolet;
+    border: 1px solid black;
+  }
+
+  .Tittle_exp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonDelete {
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    background-color: #e74118;
+    border: 1px solid black;
+  }
+
+  .textAA {
+    background-color: #E0E0E0;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  

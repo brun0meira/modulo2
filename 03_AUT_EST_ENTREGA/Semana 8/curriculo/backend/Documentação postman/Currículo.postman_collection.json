@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "dbb22a96-6fa1-4193-9218-5348b9b3a7b1",
+		"name": "Currículo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20667286"
+	},
+	"item": [
+		{
+			"name": "INSERT-EXPERIENCIA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "empresa",
+							"value": "NutriPlant",
+							"type": "text"
+						},
+						{
+							"key": "cargo",
+							"value": "Jovem Aprendiz de TI",
+							"type": "text"
+						},
+						{
+							"key": "funcao",
+							"value": "Instalação de sistemas operacionais, instalação de programas (Pacote Office), antivirus, configuração de cliente de e-mail, instalação e compartilhamento de impressoras, Administração de servidores (backup, ActiveDirectory - criação de usuários), compartilhamento e permissionamento de pastas de arquivos, suporte técnico a usuários, manutenção de computadores e configuração de rede(em computadores e switches).",
+							"type": "text"
+						},
+						{
+							"key": "dataInicio",
+							"value": "11/10/2021",
+							"type": "text"
+						},
+						{
+							"key": "dataSaida",
+							"value": "01/02/2022",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3041/experienciainsert",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3041",
+					"path": [
+						"experienciainsert"
+					]
+				},
+				"description": "Adicionar experiencia na tabela."
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE-EXPERIENCIA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "IDexp",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3041/experienciadelete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3041",
+					"path": [
+						"experienciadelete"
+					]
+				},
+				"description": "Código usado para deletar uma experiencia da tabela."
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE-EXPERIENCIA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "IDexp",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "dataSaida",
+							"value": "02/02/2022",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3041/experienciaupdate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3041",
+					"path": [
+						"experienciaupdate"
+					]
+				},
+				"description": "Código usado para atualizar a data de saída na tabela."
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT-EXPERIENCIA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3041/experienciaselect",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3041",
+					"path": [
+						"experienciaselect"
+					]
+				},
+				"description": "Código usado para visualzar todos os itens da tabela."
+			},
+			"response": []
+		}
+	]
+}
