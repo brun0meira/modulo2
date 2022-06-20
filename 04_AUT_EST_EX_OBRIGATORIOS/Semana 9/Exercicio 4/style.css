@@ -1,0 +1,46 @@
+body {
+    background-color: #bae8e8;
+    justify-content: center;
+}
+
+input[type=text] {
+    height: 4vh;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ffd803;
+    margin-left: 2vh;
+    width: 11%;
+    border: 1px solid #272343;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+.tittle {
+    text-align: center;
+    color: #272343;
+}
+
+.buttonOnClick {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.int {
+    display: flex;
+    justify-content: center;
+}
+
+.resp {
+    margin-top: 2vh;
+    text-align: center;
+    color: #272343;
+}
